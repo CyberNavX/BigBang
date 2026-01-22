@@ -1,6 +1,8 @@
+package BigBang.Java.Nivel_1;
+
 class _04_TiposNoPrimitivo {
     
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
      
         /*
             Los tipos de datos no primitivos pueden almacenar [null].
@@ -8,8 +10,8 @@ class _04_TiposNoPrimitivo {
         */   
     
         //int numero3 = null;
-        Integer opcion = null;
-        String palabra = "Hola como estas?";
+        final Integer opcion = null;
+        final String palabra = "Hola como estas?";
 
         //System.out.println("Usando [int] vemos que no se puede almacenar [null]: " + numero3);
         System.out.println("Usando [Intenger] vemos que si puede almacenar [null]: " + opcion);

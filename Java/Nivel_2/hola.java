@@ -1,4 +1,4 @@
-package BigBang.Java.Nivel_2_;
+package BigBang.Java.Nivel_2;
 
 public class hola {
     public static void main(String[] args) {
