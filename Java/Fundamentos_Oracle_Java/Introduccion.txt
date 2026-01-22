@@ -1,0 +1,18 @@
+Aprenda los conceptos básicos de programación de Java, como variables, clases, objetos, bucles, matrices y construcciones de decisión. Introducirse en las capacidades orientadas a objetos de Java. Aprenda a jugar con Java usando el NetBeans IDE, así como la Oracle Cloud. ¡Adelante y gana la insignia del explorador!
+
+Esta ruta de aprendizaje proporciona una introducción a Java para:
+
+    Desarrolladores
+    Diseñadores, administradores y arquitectos
+    Ingenieros de soporte y QA
+
+Esta ruta de aprendizaje cubre:
+
+    Una visión general de Java
+    Texto y números en Java
+    Matrices, condiciones y bucles
+    Clases y objetos
+    Manejo de excepciones
+    Herencias e interfaces
+    Java en OCI
+

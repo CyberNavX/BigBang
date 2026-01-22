@@ -1,0 +1,63 @@
+*** Diseño de Java ***
+
+Al trabajar con lenguaes de programacion orientada a objetos y java
+trabajamos con clases y objetos.
+
+    - clases
+Una clase representa un tipo de elementos o conceptos que tiene atributos
+y comportamiento, como por ejemplo: Gato, perro, humano
+
+    - objetos
+Un objeto es una instacia (un ejemplo especifico de la clase) que la computadora
+crea en tiempo de ejecucion para ejecutar nuestro codigo, como por ejemplo 
+Perro (Fido) o perro (Rex), se trata de instacias de objetos creadas a partir de la 
+clase de plantilla creada como parte del diseño 
+
+
+
+*** APIs Java ***
+
+Java incluye una serie de interfaces de programas de aplicaciones diferentes que 
+escribir el codigo usted mismo, cada elemento de la matriz tiene un indice diferente,
+un indice de 0,1,2 y 3 a los que se puede acceder y manipular facilmente la matriz,
+sin embargo, para capacidades mas complejas y flexibles, existe una API de recopilacion
+proporcionada que nos permite trabajr con diferentes tipos de recopilaciones:
+    
+    - ArrayList (Lista de matrices)
+    - LinkedList (Lista de enlaces)
+    - Set (Juegos)
+    - Stack (Pilas)
+    - Queue (Colas)
+
+y Podemos ahcer tareas como agregar, actualizar, eliminar, buscar y reorganizar, por lo tanto
+la API de recopilacion es muy util para que podamos manipular recopilaciones de objetos.
+
+    - APIs Strems
+La API de Java Strems nos permite filtrar, asignar y reducir de forma eficaz grandes 
+secuencias de datos, realizan estas acciones en los datos con expresiones lambda, las expresiones
+lambda constrituyen una forma de programacion funcional en Java.
+
+    - APIs IO 
+Esto permite transferir datos mediante una serie de flujos interconectados, podemos leer informacion 
+de varios origenes normalmente un archivo plano, pero no es necesario que este y que sea la direccion
+de entrada y podemos escribir informacion en varios destinos
+
+    - APIs de Simultaneidad
+Aprovecha las arquitecturas de CPU de varios digitos. Ejecuta el codigo de forma simultanea para lograr
+un mejor rendimiento y una mejor experiencia de usuario, creara varias tareas diferentes que se pueden 
+ejecutar basicamente al mismo tiempo..
+
+    - APIs de conectividad a base de datos JDBC
+Permite conectarse a bases de datos de proveedores y ejecutar secuencias SQL, java Persistence API, JPA 
+tiene un codigo que permite escribir objetos java en base de datos relacionales y datos SQL relacionales
+que se van a leer en dichas bases de datos, mientras se mueven los datos JAVA a una base de datos y los
+datos de la base de datos a objetos de java. Por lo tanto, todo se inicia con la logica de la aplicacion,
+que realizara una llamada a Java Persistence API o llamaria a este, la logica de la aplicacion seria JPA
+y por ejemplo, hey, necesitamos conectarse a la base de datos y debemos leer y escribir informacion acerca
+de un clase, por lo tanto, JPA lo haria mediante una API-neutral de proveedor, por lo tanto, independientemente
+del tipo de base de datos con el que trabajamos, Oracle, Db2, SQL server, todos ellos trabajan de la misma forma
+desde la perspectiva de Java.
+
+La API neutral del proveedor permite conectarse a la base de datos, crear un objeto de sentencia para ejecutar
+sentencias SQL, ejecutar la sentencia SQL y devolver el Step de resultados de retorno de todas las filas que vuelven
+cuando se realiza una consulta.
