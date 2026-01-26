@@ -1,4 +1,4 @@
-package BigBang.Java.Nivel_1;
+package Nivel_1;
 
 public class _03_TiposDeDatos {
     

@@ -1,6 +1,6 @@
-package BigBang.Java.Nivel_1; 
- 
- public class _02_Comentarios {
+package Nivel_1;
+
+ public class _02_Comentario {
     public static void main(String[] args) {
         
         System.out.println("Veremos que son los comentarios"); 
